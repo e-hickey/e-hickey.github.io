@@ -41,7 +41,7 @@ kramdown:
   parse_block_html: true
 
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 
 # Settings for rake task
