@@ -1,9 +1,7 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Ethan Hickey, MLIS
+description: A professional website that contains blog posts, musings, and general thoughts about modern librarianship.
 cover: assets/images/sunset.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://e-hickey.github.io" # the base hostname & protocol for your site
 
@@ -15,17 +13,15 @@ pagination:
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
 
-  per_page: 5
+  per_page: 6
 
 # Social
-facebook: facebook
-twitter: twitter
-github:  github
+twitter: sunstormbooks
+github:  e-hickey
 
 #Additional Pages
 about: about
-contact: contact
-privacy-policy: privacy-policy
+
 
 
 permalink: /:title

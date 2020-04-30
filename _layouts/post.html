@@ -86,7 +86,7 @@ layout: default
     {% if page.tags.size > 0 %}
         {% assign primary = page.tags | first %}
         {% assign related_posts = 0 %}
-        {% for post in site.posts %}
+        {% for post in site.posts reversed %}
           {% if post.tags.size > 0 %}
               {% if post.tags contains primary %}
                 {% assign related_posts = related_posts | plus: 1 %}
@@ -105,7 +105,7 @@ layout: default
                         {% endif %}
                     {% endif %}
                     {% assign count = 0 %}
-                    {% for post in site.posts %}
+                    {% for post in site.posts reversed %}
                       {% if post.tags contains primary %}
                         {% if post.title != page.title %}
                           {% assign count = count | plus: 1 %}
